@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <title>calculator</title>
+        <link rel="icon" href="styles/calculator-solid.svg">
+        <link rel="stylesheet" href="styles/style.css">
+    </head>
+    <body>
+        <header class="log">
+            <img src="styles/calculator-solid.svg" alt="logo" height="65px">
+            <h3>Calculate here!</3>
+        </header>
+        <main>
+                <form onsubmit="calculator()">
+                    <input id="num1" type="number" >
+                    <input id="action" type="text">
+                    <input id="num2" type="number">
+                    <input id="button1" type="submit" value="=">
+                </form>
+        </main>
+        <script>
+            function calculator() {
+                var num1 = document.getElementById("num1").value
+                var action = document.getElementById("action").value 
+                var num2 = document.getElementById("num2").value 
+                event.preventDefault()
+                    if (num1 == "3" && action == "+" && num2 == "3") {
+                        alert ("6")
+                    } else if (num1 == "3" && action == "-" && num2 == "3") {
+                        alert ("0")
+                    }   else if (num1 == "3" && action == "*" && num2 == "3") {
+                        alert ("9")
+                    }   else if (num1 == "3" && action == "/" && num2 == "3") {
+                        alert ("1")
+                    }   else alert ("calculate it your self :) ")
+            }
+        </script>
+    </body>
+</html>
