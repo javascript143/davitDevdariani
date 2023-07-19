@@ -1,0 +1,104 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta author="david devdariani">
+        <meta name="viewpoint" content="width-device-width" initial-scale="1.0">
+        <meta name="keyword" content="xgudauri, gudauri,paragliding in georgia,snowmobile riding in georgia, skiing in georgia, jeep tours, overlanding">
+        <title>Xgudauri sign up</title>
+        <link rel="icon" type="image" href="styles/icons/parachute logo.png">
+        <link rel="stylesheet" href="styles/style.css"> 
+    </head>
+
+    <body>
+        <header>
+            <nav>   
+                <div id="logo">
+                    <img src="styles/icons/parachute logo.png" alt="logo" height="60">
+                    <a href="0home.html"><span>X</span>gudauri</a>
+                </div>
+                
+                <div class="navmenu">
+                    <a href="0home.html">Home</a>
+                    <a href="1aboutus.html">About us</a>
+                    <a href="2contact.html">Contact</a>
+                    <a href="3services.html">services</a>
+                </div>
+                <div class="loglogin" >
+                    <a href="4login.html">Login</a>
+                </div>
+            </nav>
+            <main class="signupmain">
+                <div class="leftbar">
+                    <div id="fblogo">
+                        <a href="https://www.facebook.com/XGudauri/"> <img src="styles/icons/circle-facebook_-512.webp" alt="logo" width="50"></a>
+                    </div>
+                    <div id="instalogo">
+                        <a href="https://www.instagram.com/xgudauri/"> <img src="styles/icons/3225191_app_instagram_logo_media_popular_icon.png" alt="logo" width="50"></a>
+                    </div>  
+                </div>
+                <form onsubmit="login()" class="signupclass">
+                        <div id="midlogosignup">
+                            <img src="styles/icons/parachute logo.png" alt="logoicon" height="60">
+                            <h3> <span>X</span>gudauri</h3>
+                            <a>welcome</a>
+                        </div>
+                        <div class="inputssignup">
+                            <div class="inputssignup">
+                                <input id="inputusername" placeholder="username">
+                            </div>
+    
+                            <div class="inputssignup">
+                                <input id="inputpassword" placeholder="password">
+                            </div>
+    
+                            <div class="inputssignup">
+                                <input id="inputname" placeholder="name">
+                            </div>
+    
+                            <div class="inputssignup">
+                                <input id="inputlastname" placeholder="lastname">
+                            </div>
+                            <div class="inputssignup">
+                                <input id="checksignup" type="checkbox"><a>i'm not a robot</a>
+                            </div> 
+                        </div>
+                        <div class="loginsignup">
+                            <input id="loginlogin" type="submit" value="login">
+                        </div>
+                </form>
+
+
+                <script type="text/javascript">
+                    function login() {
+                        var username = document.getElementById("inputusername").value
+                        var password = document.getElementById("inputpassword").value
+                        var name = document.getElementById("inputname").value
+                        var lastname = document.getElementById("inputlastname").value
+                        event.preventDefault
+                            if (username == "admin" && password == "admin") {
+                            window.location.href="0home.html"; alert ("registration successful");
+                            }
+                    }
+
+
+                </script>
+            </main>
+            
+            <footer>
+                <div id="footerlogo"> 
+                    <img src="styles/icons/parachute logo.png" alt="logo" height="60">
+                    <a> <span>X</span>gudauri &copy; </a>
+                </div>
+                <div class="footermenu">
+                    <ul>
+                        <li><a href="0home.html">Home</a></li>
+                        <li><a href="1aboutus.html">About us</a></li>
+                        <li><a href="2contact.html">Contact</a></li>
+                        <li><a href="3services.html">services</a></li>
+                    </ul>
+                </div>
+            </footer>
+    </body>
+
+    </header>
+</html>
