@@ -95,7 +95,14 @@ body {
     text-align: center;
     text-shadow: 2px 2px 2px azure;
 }
-
+.text {
+    position: relative;
+    text-align: center;
+    font-size: 50px;
+    bottom: 80px;
+    color: white;
+    text-shadow: 0px 0px 5px;
+}
 main h1 {
     margin-top: 30px;
     text-align: center;
